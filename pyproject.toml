@@ -1,0 +1,20 @@
+[project]
+name = "calamity"
+version = "0.1.0"
+description = "Remote Graia Broadcast."
+authors = [
+    {name = "luxuncang", email = "luxuncang@qq.com"},
+]
+dependencies = [
+    "graia-broadcast>=0.18.2",
+    "lacia>=0.0.5",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517>=0.12.0"]
+build-backend = "pdm.pep517.api"
