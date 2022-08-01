@@ -112,7 +112,7 @@ loop.run_forever()
 ```
 
 ### 提示
-```
+```python
 bcc = Broadcast(loop=loop) # 声明 bcc
 bcc = Calamity.patch(debug=True) # remote bcc
 ```
