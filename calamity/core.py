@@ -30,9 +30,7 @@ from graia.broadcast import (
     Decorator,
     T_Dispatcher,
     dispatcher_mixin_handler,
-    CoverDispatcher,
-    group_dict,
-    PropagationCancelled
+    CoverDispatcher
 )
 from graia.broadcast.entities.event import Dispatchable
 from graia.broadcast.entities import listener
@@ -151,7 +149,6 @@ class Calamity(AbcCalamity, Generic[T, P]):
             cls.loop.create_task(cls.rpc.send_request_server(cls.rpc.post_event(event, upper_event), i[0]))
         return True
         
-   
     @classmethod
     def get_type_obj(cls, typer, frame):
         for local in cls.__frame_locals(frame):

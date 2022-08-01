@@ -6,9 +6,9 @@ _传说中有柄魔剑斩下了灾祸，灾祸带给人们以痛苦以幸福以�
 
 > 子非鱼，安知鱼之乐
 
- [![CodeFactor](https://www.codefactor.io/repository/github/luxuncang/calamity/badge)](https://www.codefactor.io/repository/github/luxuncang/lacia)
+ [![CodeFactor](https://www.codefactor.io/repository/github/luxuncang/calamity/badge)](https://www.codefactor.io/repository/github/luxuncang/calamity)
  [![GitHub](https://img.shields.io/github/license/luxuncang/calamity)](https://github.com/luxuncang/lacia/blob/master/LICENSE)
- [![CodeQL](https://github.com/luxuncang/calamity/workflows/CodeQL/badge.svg)](https://github.com/luxuncang/lacia/blob/master/.github/workflows/codeql-analysis.yml)
+ [![CodeQL](https://github.com/luxuncang/calamity/workflows/CodeQL/badge.svg)](https://github.com/luxuncang/calamity/blob/master/.github/workflows/codeql-analysis.yml)
 
 </div>
 
